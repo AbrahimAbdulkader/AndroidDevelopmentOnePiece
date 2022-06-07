@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/article_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:text="@string/the_article_title" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_below="@id/article_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/article_subheading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:padding="@dimen/padding_default"
+                android:text="@string/article_subtitle"
+                />
+
+            <TextView
+                android:id="@+id/article"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web|all"
+                android:lineSpacingExtra="@dimen/line_spacing"
+                android:text="@string/the_article_content"
+                />
+
+            <ImageView
+                android:id="@+id/image_law"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_image"
+                android:contentDescription="@string/image_law_description"
+                app:srcCompat="@drawable/law" />
+
+            <Button
+                android:id="@+id/btn_click_me"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="@string/btn_text_click_me"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/btn_text_size"
+                android:textStyle="bold"
+                android:onClick="showHideImage"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ScrollTextImageView</string>
+    <string name="the_article_title">One Piece Characters</string>
+    <string name="article_subtitle">Trafalgar D. Law</string>
+    <string name="the_article_content">
+    Trafalgar D. Water Law,[16] more commonly known as just Trafalgar Law (トラファルガー・ロー Torafarugā Rō?) and by his epithet as the "Surgeon of Death\",
+        is a pirate from North Blue and the captain and doctor of the Heart Pirates.[1][6]
+        He is one of twelve pirates who are referred to as the "Worst Generation\".[1][17]
+        He became one of the Seven Warlords of the Sea during the timeskip,[2]
+        but his position was revoked for allying with the Straw Hat Pirates.[12] Law,
+        like many other pirates, dreams of finding the One Piece,
+        while also desiring to know the purpose of the Will of D..
+        Law is the only known survivor of Flevance, a town whose inhabitants suffered from a condition known as Amber Lead Syndrome.
+        Because the disease was fatal and poorly understood,
+        Flevance was destroyed by neighboring countries out of fear, with a young Law barely escaping alive.[7]
+        He subsequently joined the Donquixote Pirates, where Donquixote Doflamingo intended to
+        make Law one of his executive officers.[16] However, thanks to the efforts of Doflamingo\'s brother,
+        Rosinante, Law was freed from the Donquixote Pirates\' influence and became a pirate set to bring down
+        Doflamingo\'s empire.
+
+
+
+
+    </string>
+    <string name="btn_text_click_me">"click me "</string>
+    <string name="image_law_description">law image</string>
+</resources>
